@@ -14,6 +14,9 @@
             <a href="/project-explorer/login.html">Login</a>
             <a href="/project-explorer/register.html">Register</a>
             <a href="/project-explorer/createproject.html">Submit</a>
+            <a href="/project-explorer/editproject.html">Edit</a>
+            <a href="/project-explorer/viewproject.html">View</a>
+            <a href="/project-explorer/profile.html">Profile</a>
     </nav>
 
     <main>
@@ -27,19 +30,19 @@
 
     <form name="editProject">
         <label for="name">Project Name:</label><br>
-        <input name="name" type="text"/><br><br>
+        <input name="name" type="text" required><br><br>
 
         <label for="abstract">Abstract:</label><br>
-        <textarea name="abstract" type="text"></textarea><br><br>
+        <textarea name="abstract" type="text" required></textarea><br><br>
 
         <label for="authors">Authors:</label><br>
-        <input name="authors" type="text"/><br><br>
+        <input name="authors" type="text"required><br><br>
 
         <label for="tags">Tags:</label><br>
-        <input name="tags" type="text"/><br><br>
+        <input name="tags" type="text"required><br><br>
 
         <label for="projectFile">Upload File:</label><br>
-        <input name="projectFile" type="file"/><br><br>
+        <input name="projectFile" type="file" required><br><br>
 
         <input type="submit">
 
