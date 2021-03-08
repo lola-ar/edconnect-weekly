@@ -36,19 +36,19 @@
         <h3>Update profile</h3>
         <form name="updateProfile">
             <label for="firstName">First Name:</label>
-            <input name="firstname" type="text"/><br><br>
+            <input name="firstName" type="text"/><br><br>
 
             <label for="lastName">Last Name:</label>
             <input name="lastName" type="text"/><br><br>
 
             <label for="email">Email Address:</label>
-            <input name="email" type="email"/><br><br>
+            <input name="email" type="email" required><br><br>
 
             <label for="password">Password:</label>
-            <input name="password" type="password"/><br><br>
+            <input name="password" type="password" required><br><br>
 
             <label for="matricNumber">Matric Number:</label>
-            <input name="matricNumber" type="text"/><br><br>
+            <input name="matricNumber" type="text" required><br><br>
 
             <label for="program">Program:</label>
             <select name="program" >
@@ -77,16 +77,16 @@
         <h3>Change Password</h3>
         <form name="changePassword">
             <label for="currentPassword">Current Password:</label>
-            <input name="currentPassword" type="password"/><br><br>  
+            <input name="currentPassword" type="password" required><br><br>  
 
             <label for="newPassword">New Password:</label>
-            <input name="newPassword" type="password"/><br><br>  
+            <input name="newPassword" type="password" required><br><br>  
 
             <label for="newPassword">New Password:</label>
-            <input name="newPassword" type="password"/><br><br>  
+            <input name="newPassword" type="password" required><br><br>  
 
             <label for="confirmPassword">Confirm Password:</label>
-            <input name="confirmPassword" type="password"/><br><br>  
+            <input name="confirmPassword" type="password" required><br><br>  
 
             <input type="submit">
         </form>
